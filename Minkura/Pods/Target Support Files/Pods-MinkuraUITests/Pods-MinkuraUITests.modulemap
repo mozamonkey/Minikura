@@ -1,0 +1,6 @@
+framework module Pods_MinkuraUITests {
+  umbrella header "Pods-MinkuraUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		207D3DC348AB4DCC488662964651B62F /* Pods-MinkuraTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1401CA39E347533660AD54D63835A1C0 /* Pods-MinkuraTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F7548040B01F95A1A5E49D7AA3B4F30 /* Pods-MinkuraUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6565CB15315049B53A4D22F2A0685DB /* Pods-MinkuraUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		763639C44268752FD5DB26FB39A487AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7A66EAF6C550A952C0FD7CD81C129A03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		87D4A1499B3BA0931BDA552440991F41 /* Pods-MinkuraTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD62F40B3657E6A759A65B9615A91711 /* Pods-MinkuraTests-dummy.m */; };
+		B3DD42B5259F21FB55D29A4573B0D437 /* Pods-MinkuraUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED05851742BB1723D08E7F63F2CD4312 /* Pods-MinkuraUITests-dummy.m */; };
+		C0D26533BA00419DE90CA05E00C6C02D /* Pods-Minkura-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C71018DE5E417A5EDDD2E8203F44A64A /* Pods-Minkura-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDB9D21BC466B4FCCFCDC7879ABFEB1F /* Pods-Minkura-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E688E864BC8B37FE6B2268B822F3EB /* Pods-Minkura-dummy.m */; };
+		E38A8688D0180FC38F134FB0E9D08CE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0405500F228E5B856A354970A29B13DD /* Pods-MinkuraTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MinkuraTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0AC4E8F1715C0FBDD16198E57473EDF8 /* PayPalConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PayPalConfiguration.h; path = PayPalMobile/PayPalConfiguration.h; sourceTree = "<group>"; };
+		111FA27B899EACFCA54E1257FA5BD59F /* Pods-MinkuraUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MinkuraUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1348DD33BE2396D0E8B4E57A344EC0E5 /* Pods-Minkura-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Minkura-resources.sh"; sourceTree = "<group>"; };
+		13BB4E03A8536EEA9AA9C679FDAA433B /* Pods-MinkuraUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MinkuraUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1401CA39E347533660AD54D63835A1C0 /* Pods-MinkuraTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MinkuraTests-umbrella.h"; sourceTree = "<group>"; };
+		15A7A1B359447D0C16645994E9A8842B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A84FA51970E5D03CC06E97F233F079E /* Pods-MinkuraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MinkuraTests.release.xcconfig"; sourceTree = "<group>"; };
+		3BB461504C631C1AA12734AC936DC483 /* PayPalOAuthScopes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PayPalOAuthScopes.h; path = PayPalMobile/PayPalOAuthScopes.h; sourceTree = "<group>"; };
+		51E23A0BBDBE5A9DB42517F596E54A84 /* Pods-MinkuraUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MinkuraUITests.modulemap"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6BBC62B1A69AB459145CC462838940E8 /* Pods-MinkuraUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MinkuraUITests-frameworks.sh"; sourceTree = "<group>"; };
+		74251F351E9EAA217D8A120D3717DEE8 /* Pods-MinkuraUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MinkuraUITests-resources.sh"; sourceTree = "<group>"; };
+		8105C4CE60A794ADFB2C71CD5D80786D /* Pods-Minkura.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Minkura.debug.xcconfig"; sourceTree = "<group>"; };
+		835ACDE91060D4535AE2F8762203714B /* Pods-MinkuraUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MinkuraUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8441229C8567FE160415C6446B48E2B3 /* PayPalPayment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PayPalPayment.h; path = PayPalMobile/PayPalPayment.h; sourceTree = "<group>"; };
+		8C98B47FB347FF3E58A11A8B1E9AA5D8 /* Pods-MinkuraTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MinkuraTests.modulemap"; sourceTree = "<group>"; };
+		9065903CBBCAE49A77659AC7378DD50E /* Pods_MinkuraUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MinkuraUITests.framework; path = "Pods-MinkuraUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92E688E864BC8B37FE6B2268B822F3EB /* Pods-Minkura-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Minkura-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DBABFB76659A0B00E98252422F5866F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DF55B3103287937C0CC8E10A662B9FC /* Pods-Minkura-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Minkura-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A294317E78D15BA2B5FB3CB32C7A2C16 /* Pods-Minkura.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Minkura.modulemap"; sourceTree = "<group>"; };
+		A3E1CC168CD6C6B2E64A486B89593FD5 /* Pods-MinkuraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MinkuraTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A757D7121C70FAD598311F8FF0959BA3 /* Pods-Minkura.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Minkura.release.xcconfig"; sourceTree = "<group>"; };
+		A856330495571E6B8E11A5BED0F6C785 /* Pods-MinkuraTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MinkuraTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ACA0A84A399A58A4CEADDDA6A1D66FB0 /* PayPalFuturePaymentViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PayPalFuturePaymentViewController.h; path = PayPalMobile/PayPalFuturePaymentViewController.h; sourceTree = "<group>"; };
+		BD62F40B3657E6A759A65B9615A91711 /* Pods-MinkuraTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MinkuraTests-dummy.m"; sourceTree = "<group>"; };
+		BFF2727AA2269D169E2A877B158F930F /* Pods-Minkura-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Minkura-frameworks.sh"; sourceTree = "<group>"; };
+		C71018DE5E417A5EDDD2E8203F44A64A /* Pods-Minkura-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Minkura-umbrella.h"; sourceTree = "<group>"; };
+		CDDAC2F8480B2BEFFB29B12718F0A314 /* libPayPalMobile.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libPayPalMobile.a; path = PayPalMobile/libPayPalMobile.a; sourceTree = "<group>"; };
+		CE49FE7377011A63412A01C639C76574 /* Pods-MinkuraTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MinkuraTests-resources.sh"; sourceTree = "<group>"; };
+		D1B6404CE2511203C69BB9A821508789 /* PayPalMobile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PayPalMobile.h; path = PayPalMobile/PayPalMobile.h; sourceTree = "<group>"; };
+		D6565CB15315049B53A4D22F2A0685DB /* Pods-MinkuraUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MinkuraUITests-umbrella.h"; sourceTree = "<group>"; };
+		DDAB7E1FE2359BA8F007AFCD5F869B46 /* Pods-MinkuraTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MinkuraTests-frameworks.sh"; sourceTree = "<group>"; };
+		DF12306776FADF08B14235F6BB291527 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E20B6F69DE11278AE36F6DB1635100BD /* Pods_Minkura.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Minkura.framework; path = "Pods-Minkura.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E31E501DB7458799AE143244637861F4 /* Pods-MinkuraUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MinkuraUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ED05851742BB1723D08E7F63F2CD4312 /* Pods-MinkuraUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MinkuraUITests-dummy.m"; sourceTree = "<group>"; };
+		F2DEF181EEE5E9EBF29C8841ACF32D0A /* Pods_MinkuraTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MinkuraTests.framework; path = "Pods-MinkuraTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3834403FAD45B78E2D97298E62762CC /* PayPalPaymentViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PayPalPaymentViewController.h; path = PayPalMobile/PayPalPaymentViewController.h; sourceTree = "<group>"; };
+		FE15078E2AC194C338C6842CC76B29F7 /* PayPalProfileSharingViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PayPalProfileSharingViewController.h; path = PayPalMobile/PayPalProfileSharingViewController.h; sourceTree = "<group>"; };
+		FE7F9066A45273D17C8A79A2A698137E /* Pods-Minkura-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Minkura-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11E377B8CC52893C7F2D995EA2249219 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E38A8688D0180FC38F134FB0E9D08CE4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39080C4CB664647AE406653434BF1450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				763639C44268752FD5DB26FB39A487AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD47A0473DF76FA5EE6F805D1C9924D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A66EAF6C550A952C0FD7CD81C129A03 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C5A2FAECF5CAD37AB67B1B7286837C6 /* Pods-MinkuraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15A7A1B359447D0C16645994E9A8842B /* Info.plist */,
+				51E23A0BBDBE5A9DB42517F596E54A84 /* Pods-MinkuraUITests.modulemap */,
+				111FA27B899EACFCA54E1257FA5BD59F /* Pods-MinkuraUITests-acknowledgements.markdown */,
+				13BB4E03A8536EEA9AA9C679FDAA433B /* Pods-MinkuraUITests-acknowledgements.plist */,
+				ED05851742BB1723D08E7F63F2CD4312 /* Pods-MinkuraUITests-dummy.m */,
+				6BBC62B1A69AB459145CC462838940E8 /* Pods-MinkuraUITests-frameworks.sh */,
+				74251F351E9EAA217D8A120D3717DEE8 /* Pods-MinkuraUITests-resources.sh */,
+				D6565CB15315049B53A4D22F2A0685DB /* Pods-MinkuraUITests-umbrella.h */,
+				835ACDE91060D4535AE2F8762203714B /* Pods-MinkuraUITests.debug.xcconfig */,
+				E31E501DB7458799AE143244637861F4 /* Pods-MinkuraUITests.release.xcconfig */,
+			);
+			name = "Pods-MinkuraUITests";
+			path = "Target Support Files/Pods-MinkuraUITests";
+			sourceTree = "<group>";
+		};
+		46C896ED2029B5CC8210AF9B66F49D2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E20B6F69DE11278AE36F6DB1635100BD /* Pods_Minkura.framework */,
+				F2DEF181EEE5E9EBF29C8841ACF32D0A /* Pods_MinkuraTests.framework */,
+				9065903CBBCAE49A77659AC7378DD50E /* Pods_MinkuraUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49E297E4AC0060FBF30577A76E0D4C90 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C013C3E9365399FA433F05B4DB11DB36 /* Pods-Minkura */,
+				815D04CFAC7FF0D7A287CB92D39BBB6A /* Pods-MinkuraTests */,
+				0C5A2FAECF5CAD37AB67B1B7286837C6 /* Pods-MinkuraUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		65E1614B7E65DAD388D555F7D6341CDC /* PayPal-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				9FAC2C5314D6922CBF59E3D45205D352 /* Core */,
+			);
+			name = "PayPal-iOS-SDK";
+			path = "PayPal-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CDDA50C868728949A87C0970DE7D8A0C /* Pods */,
+				46C896ED2029B5CC8210AF9B66F49D2F /* Products */,
+				49E297E4AC0060FBF30577A76E0D4C90 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		815D04CFAC7FF0D7A287CB92D39BBB6A /* Pods-MinkuraTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DBABFB76659A0B00E98252422F5866F /* Info.plist */,
+				8C98B47FB347FF3E58A11A8B1E9AA5D8 /* Pods-MinkuraTests.modulemap */,
+				A856330495571E6B8E11A5BED0F6C785 /* Pods-MinkuraTests-acknowledgements.markdown */,
+				0405500F228E5B856A354970A29B13DD /* Pods-MinkuraTests-acknowledgements.plist */,
+				BD62F40B3657E6A759A65B9615A91711 /* Pods-MinkuraTests-dummy.m */,
+				DDAB7E1FE2359BA8F007AFCD5F869B46 /* Pods-MinkuraTests-frameworks.sh */,
+				CE49FE7377011A63412A01C639C76574 /* Pods-MinkuraTests-resources.sh */,
+				1401CA39E347533660AD54D63835A1C0 /* Pods-MinkuraTests-umbrella.h */,
+				A3E1CC168CD6C6B2E64A486B89593FD5 /* Pods-MinkuraTests.debug.xcconfig */,
+				2A84FA51970E5D03CC06E97F233F079E /* Pods-MinkuraTests.release.xcconfig */,
+			);
+			name = "Pods-MinkuraTests";
+			path = "Target Support Files/Pods-MinkuraTests";
+			sourceTree = "<group>";
+		};
+		9FAC2C5314D6922CBF59E3D45205D352 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0AC4E8F1715C0FBDD16198E57473EDF8 /* PayPalConfiguration.h */,
+				ACA0A84A399A58A4CEADDDA6A1D66FB0 /* PayPalFuturePaymentViewController.h */,
+				D1B6404CE2511203C69BB9A821508789 /* PayPalMobile.h */,
+				3BB461504C631C1AA12734AC936DC483 /* PayPalOAuthScopes.h */,
+				8441229C8567FE160415C6446B48E2B3 /* PayPalPayment.h */,
+				F3834403FAD45B78E2D97298E62762CC /* PayPalPaymentViewController.h */,
+				FE15078E2AC194C338C6842CC76B29F7 /* PayPalProfileSharingViewController.h */,
+				A9E6B0DF4D87725CAA297A9CDCD1950C /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		A9E6B0DF4D87725CAA297A9CDCD1950C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDDAC2F8480B2BEFFB29B12718F0A314 /* libPayPalMobile.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C013C3E9365399FA433F05B4DB11DB36 /* Pods-Minkura */ = {
+			isa = PBXGroup;
+			children = (
+				DF12306776FADF08B14235F6BB291527 /* Info.plist */,
+				A294317E78D15BA2B5FB3CB32C7A2C16 /* Pods-Minkura.modulemap */,
+				9DF55B3103287937C0CC8E10A662B9FC /* Pods-Minkura-acknowledgements.markdown */,
+				FE7F9066A45273D17C8A79A2A698137E /* Pods-Minkura-acknowledgements.plist */,
+				92E688E864BC8B37FE6B2268B822F3EB /* Pods-Minkura-dummy.m */,
+				BFF2727AA2269D169E2A877B158F930F /* Pods-Minkura-frameworks.sh */,
+				1348DD33BE2396D0E8B4E57A344EC0E5 /* Pods-Minkura-resources.sh */,
+				C71018DE5E417A5EDDD2E8203F44A64A /* Pods-Minkura-umbrella.h */,
+				8105C4CE60A794ADFB2C71CD5D80786D /* Pods-Minkura.debug.xcconfig */,
+				A757D7121C70FAD598311F8FF0959BA3 /* Pods-Minkura.release.xcconfig */,
+			);
+			name = "Pods-Minkura";
+			path = "Target Support Files/Pods-Minkura";
+			sourceTree = "<group>";
+		};
+		CDDA50C868728949A87C0970DE7D8A0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65E1614B7E65DAD388D555F7D6341CDC /* PayPal-iOS-SDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5619B3CA8A8495764142C26C28154831 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207D3DC348AB4DCC488662964651B62F /* Pods-MinkuraTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61EDF10A98443961E446FF298CF830D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0D26533BA00419DE90CA05E00C6C02D /* Pods-Minkura-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7794BCA93C570445FCB470B9D26DAD2D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F7548040B01F95A1A5E49D7AA3B4F30 /* Pods-MinkuraUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		79D29E47C3ECDB7F6CC79B0731369E81 /* Pods-MinkuraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 238059238226C7E6DE5CD9DEB7E66064 /* Build configuration list for PBXNativeTarget "Pods-MinkuraUITests" */;
+			buildPhases = (
+				1E137409CA0D41C20D77408931EB86AA /* Sources */,
+				AD47A0473DF76FA5EE6F805D1C9924D0 /* Frameworks */,
+				7794BCA93C570445FCB470B9D26DAD2D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MinkuraUITests";
+			productName = "Pods-MinkuraUITests";
+			productReference = 9065903CBBCAE49A77659AC7378DD50E /* Pods_MinkuraUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A729122A121B53476D29B82712F9D2CF /* Pods-MinkuraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61D7B1AB3FA453CAD9C93004D403B283 /* Build configuration list for PBXNativeTarget "Pods-MinkuraTests" */;
+			buildPhases = (
+				57004CD7590E78D9F4C00739C53ED0A0 /* Sources */,
+				39080C4CB664647AE406653434BF1450 /* Frameworks */,
+				5619B3CA8A8495764142C26C28154831 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MinkuraTests";
+			productName = "Pods-MinkuraTests";
+			productReference = F2DEF181EEE5E9EBF29C8841ACF32D0A /* Pods_MinkuraTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B82F6E657CD75B93FC0A4E7DBE43AB1E /* Pods-Minkura */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EC2AB09EB888D0326CEB609FB110EC9 /* Build configuration list for PBXNativeTarget "Pods-Minkura" */;
+			buildPhases = (
+				02AF409BA0BA4F33CFB4400DDCE611FC /* Sources */,
+				11E377B8CC52893C7F2D995EA2249219 /* Frameworks */,
+				61EDF10A98443961E446FF298CF830D3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Minkura";
+			productName = "Pods-Minkura";
+			productReference = E20B6F69DE11278AE36F6DB1635100BD /* Pods_Minkura.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 46C896ED2029B5CC8210AF9B66F49D2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B82F6E657CD75B93FC0A4E7DBE43AB1E /* Pods-Minkura */,
+				A729122A121B53476D29B82712F9D2CF /* Pods-MinkuraTests */,
+				79D29E47C3ECDB7F6CC79B0731369E81 /* Pods-MinkuraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02AF409BA0BA4F33CFB4400DDCE611FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB9D21BC466B4FCCFCDC7879ABFEB1F /* Pods-Minkura-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E137409CA0D41C20D77408931EB86AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3DD42B5259F21FB55D29A4573B0D437 /* Pods-MinkuraUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57004CD7590E78D9F4C00739C53ED0A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D4A1499B3BA0931BDA552440991F41 /* Pods-MinkuraTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0F1AF314AAE69DEE4284B7D24F00661E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		1D57715F83C6D67E65AD2364AB707411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3E1CC168CD6C6B2E64A486B89593FD5 /* Pods-MinkuraTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MinkuraTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MinkuraTests/Pods-MinkuraTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MinkuraTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		29D4DC0B4912FD658BBF2CA0B7B6CCB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A757D7121C70FAD598311F8FF0959BA3 /* Pods-Minkura.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Minkura/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Minkura/Pods-Minkura.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Minkura;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		32637F67016415CB1A44A5AF7A57DD50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 835ACDE91060D4535AE2F8762203714B /* Pods-MinkuraUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MinkuraUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MinkuraUITests/Pods-MinkuraUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MinkuraUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		36EDA14F6A63699074214573B49935BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A84FA51970E5D03CC06E97F233F079E /* Pods-MinkuraTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MinkuraTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MinkuraTests/Pods-MinkuraTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MinkuraTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6504F325C1FCF9D119B60BA102DB1E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8105C4CE60A794ADFB2C71CD5D80786D /* Pods-Minkura.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Minkura/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Minkura/Pods-Minkura.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Minkura;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		778180CEE22BAF18C724051759B3E5BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E31E501DB7458799AE143244637861F4 /* Pods-MinkuraUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MinkuraUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MinkuraUITests/Pods-MinkuraUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MinkuraUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B30DD4CACE0190C651BCBBF67926B630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		238059238226C7E6DE5CD9DEB7E66064 /* Build configuration list for PBXNativeTarget "Pods-MinkuraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32637F67016415CB1A44A5AF7A57DD50 /* Debug */,
+				778180CEE22BAF18C724051759B3E5BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B30DD4CACE0190C651BCBBF67926B630 /* Debug */,
+				0F1AF314AAE69DEE4284B7D24F00661E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EC2AB09EB888D0326CEB609FB110EC9 /* Build configuration list for PBXNativeTarget "Pods-Minkura" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6504F325C1FCF9D119B60BA102DB1E52 /* Debug */,
+				29D4DC0B4912FD658BBF2CA0B7B6CCB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61D7B1AB3FA453CAD9C93004D403B283 /* Build configuration list for PBXNativeTarget "Pods-MinkuraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D57715F83C6D67E65AD2364AB707411 /* Debug */,
+				36EDA14F6A63699074214573B49935BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
