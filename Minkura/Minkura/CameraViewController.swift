@@ -85,7 +85,51 @@ class CameraViewController: UIViewController, AVCaptureVideoDataOutputSampleBuff
     }
     
     
+    /*clarifai model
+    func recognizeImage(image: UIImage) {
+        
+        // Check that the application was initialized correctly.
+        if let app = app {
+            
+            // Fetch Clarifai's general model.
+            app.getModelByName("general-v1.3", completion: { (model, error) in
+                
+                // Create a Clarifai image from a uiimage.
+                let caiImage = ClarifaiImage(image: image)!
+                
+                // Use Clarifai's general model to pedict tags for the given image.
+                model?.predict(on: [caiImage], completion: { (outputs, error) in
+                    print("%@", error ?? "no error")
+                    guard
+                        let caiOuputs = outputs
+                        else {
+                            print("Predict failed")
+                            return
+                    }
+                    
+                    if let caiOutput = caiOuputs.first {
+                        // Loop through predicted concepts (tags), and display them on the screen.
+                        let tags = NSMutableArray()
+                        for concept in caiOutput.concepts {
+                            tags.add(concept.conceptName)
+                        }
+                        
+                        DispatchQueue.main.async {
+                            // Update the new tags in the UI.
+                            self.textView.text = String(format: "Tags:\n%@", tags.componentsJoined(by: ", "))
+                        }
+                    }
+                    
+                    DispatchQueue.main.async {
+                        // Reset select photo button for multiple selections.
+                        self.importButton.isEnabled = true;
+                    }
+                })
+            })
+        }
+    }
+} */
     
-}
+    }
 
 

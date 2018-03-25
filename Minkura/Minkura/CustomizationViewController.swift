@@ -120,7 +120,7 @@ class CustomizationViewController: UIViewController, UIPickerViewDataSource, UIP
     @IBOutlet weak var organizationPicker: UIPickerView!
     @IBOutlet weak var customizationStatus: UILabel!
     
-    let addons = ["Sorting (ABC order)", "Labelling", "Scanning documents"]
+    let addons = ["Sorting", "Labelling", "Scanning documents", "Construction", "Instructional Contact"]
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
@@ -137,6 +137,10 @@ class CustomizationViewController: UIViewController, UIPickerViewDataSource, UIP
         organizationLabel.text = addons[row]
         customizationStatus.text = "Customization Enabled"
     }
+    
+    func pickerView(_ pickerView: UIPickerView, attributedTitleForRow row: Int, forComponent component: Int) -> NSAttributedString? {
+        let attributedString = NSAttributedString(string: addons[row], attributes: [NSAttributedStringKey.foregroundColor : UIColor.white])
+        return attributedString
+    }
   
-
 }

@@ -12,6 +12,12 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
 
     @IBOutlet weak var trackDisplay: UILabel!
     
+    @IBAction func minikuraTapped(_ sender: Any) {
+        if let url = URL(string: "http://minikura.com") {
+            UIApplication.shared.open(url, options: [:])
+        }
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
         self.hideKeyboardWhenTappedAround()
@@ -64,6 +70,10 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         ratesLabel.text = delivery[row]
         finalTotal.text = "300¥"
         totalSum.text = "400¥"
+    }
+    func pickerView(_ pickerView: UIPickerView, attributedTitleForRow row: Int, forComponent component: Int) -> NSAttributedString? {
+        let attributedString = NSAttributedString(string: delivery[row], attributes: [NSAttributedStringKey.foregroundColor : UIColor.white])
+        return attributedString
     }
 
 }
